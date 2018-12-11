@@ -16,7 +16,7 @@ A library for watermasking web pages by canvas.
 ### npm
 
 ```
-npm install watermask --save
+npm install watermask-lib --save
 ```
 
 ## Usage
