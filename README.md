@@ -10,7 +10,7 @@ A library for watermasking web pages by canvas.
 
 ### CDN
 ```js
-<script src="https://unpkg.com/watermask-lib@1.0.0/dist/watermask.min.js"></script>
+<script src="https://unpkg.com/watermask-lib@1.0.3/dist/watermask.min.js"></script>
 ```
 
 ### npm
