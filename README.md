@@ -21,8 +21,42 @@ npm install watermask --save
 
 ## Usage
 
+font
+
 ```js
-new WaterMask(options)
+new WaterMask({
+    font: 'Baidu百度'
+})
+```
+image
+
+```js
+new WaterMask({
+    image: 'xxx.png'
+})
+```
+
+Full options
+
+```js
+new WaterMask({
+    font: "",
+    fontType: 'Microsoft YaHei',
+    size: 24,
+    container: container,
+    color: "#333",
+    alpha: 0.2,
+    rotate: 340,
+    scale: 1,
+    startX: 20,
+    startY: 20,
+    rows: 10,
+    cols: 10,
+    xGap: 200,
+    yGap: 100,
+    image: '',
+    repeat: true
+})
 ```
 
 ## Options
@@ -33,7 +67,7 @@ new WaterMask(options)
 | font      | string  |                                      | Render font, required if image property is undefined |
 | fontType  | string  | Microsoft YaHei                      |                                                      |
 | size      | number  | 24                                   | Fontsize                                             |
-| image     | string  |                                      | Render image, required if font property is undefined |
+| image     | string  |                                      | Render image, required if font property is undefined. Priorit to font property |
 | color     | string  | #333                                 |                                                      |
 | alpha     | number  | 0.2                                  | Global canvas transparency                           |
 | rotate    | number  | 340                                  | deg                                                  |
